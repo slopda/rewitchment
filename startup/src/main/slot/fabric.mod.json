@@ -1,0 +1,1 @@
+{"schemaVersion": 1, "id": "bewitchment", "version": "999.0.0", "name": "Bewitchment startup slot", "environment": "*", "license": "MIT", "custom": {"rewitchment:startup_slot": true}, "depends": {"minecraft": "1.21.1", "java": ">=21", "rewitchment": "*"}}

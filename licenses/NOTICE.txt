@@ -1,0 +1,9 @@
+Rewitchment independent compatibility code: MIT; see LICENSE.
+ASM 9.10.1 (asm, asm-tree, asm-commons, asm-analysis): BSD-3-Clause; see ASM-LICENSE.txt.
+Gson 2.10.1: Copyright 2008 Google Inc.; Apache-2.0; see GSON-LICENSE.txt.
+The bootstrap copy of Gson has been modified by relocating its Java package
+from com.google.gson to com.veeda.rewitchment.startup.internal.gson to avoid
+loader-library conflicts. The conversion engine retains Gson's upstream package.
+ASM and the engine's Gson copy retain their upstream code.
+Connector interoperability names identify Minecraft APIs; no Minecraft code is included.
+No original Bewitchment classes, assets or data are bundled. Users supply their own original JAR for local conversion.

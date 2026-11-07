@@ -1,0 +1,18 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.veeda.rewitchment.probe.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "ArrowEntityCompatMixin",
+    "BlockEntityTypeCompatMixin",
+    "LivingEntityCompatMixin",
+    "PotionEntityCompatMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "client": [
+    "BedBlockEntityRendererCompatMixin", "InGameHudCompatMixin"
+  ]
+}

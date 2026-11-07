@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "rewitchment",
+  "version": "0.1.0-beta.2",
+  "name": "Rewitchment",
+  "description": "Independent Minecraft 1.21.1 compatibility helpers for Bewitchment. Experimental; requires separately obtained original content.",
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.veeda.rewitchment.probe.RuntimeCompat"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "fabric-networking-api-v1": ">=4.3.0",
+    "minecraft": "1.21.1",
+    "java": ">=21",
+    "bewitchment": "*"
+  },
+  "mixins": [
+    "rewitchment.mixins.json"
+  ],
+  "authors": [
+    "veeda"
+  ]
+}
