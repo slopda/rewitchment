@@ -1,7 +1,6 @@
 # Rewitchment
 
-Independent compatibility source for Bewitchment 1.20-10 on Minecraft 1.21.1.
-Author: veeda. Java 21. Fabric, with NeoForge + Sinytra Connector support.
+Independent compatibility source for Bewitchment 1.20.1 on Minecraft 1.21.1. Natively Fabric, with NeoForge + Sinytra Connector support.
 
 ## Source layout
 
